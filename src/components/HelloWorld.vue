@@ -6,7 +6,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-const msg = ref("Hello!!!!");
+const msg = ref("1");
 
 onMounted(() => {
   console.log(msg.value);
